@@ -14,17 +14,15 @@ public class leftzerorightone {
 
         while (i < j) {
 
-            // Move i forward while it is already 0
             while (i < j && arr[i] == 0) {
                 i++;
             }
 
-            // Move j backward while it is already 1
             while (i < j && arr[j] == 1) {
                 j--;
             }
 
-            // Swap 1 on left with 0 on right
+           
             if (i < j) {
 
                 int temp = arr[i];
@@ -36,7 +34,6 @@ public class leftzerorightone {
             }
         }
 
-        // Print complete array
         for (int ele : arr) {
             System.out.print(ele + " ");
         }
