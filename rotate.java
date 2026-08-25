@@ -9,13 +9,11 @@ public class rotate {
 
         d = d % n;
 
-        // Reverse first d elements
+        
         reverse(arr, 0, d - 1);
 
-        // Reverse remaining elements
         reverse(arr, d, n - 1);
 
-        // Reverse the whole array
         reverse(arr, 0, n - 1);
     }
 
