@@ -5,7 +5,7 @@ public class bubble {
 
     public static void main(String[] args) {
 
-        int[] arr = {1, 2,3,4,56};
+        int[] arr = {1,6,3,0,5};
 
         int n = arr.length-1;
       

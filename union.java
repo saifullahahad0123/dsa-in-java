@@ -32,19 +32,15 @@ public class union {
             }
         }
 
-        // Remaining elements of arra
         while (i < na) {
             ans.add(arra[i]);
             i++;
         }
-
-        // Remaining elements of arrb
         while (j < nb) {
             ans.add(arrb[j]);
             j++;
         }
 
-        // Print union
         for (int ele : ans) {
             System.out.print(ele + " ");
         }

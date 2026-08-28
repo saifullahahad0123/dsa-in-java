@@ -3,7 +3,7 @@
 import java.util.*;
 
 public class addandsortarray{
-
+public static void arrsaif(int[] arr)
     public static void main(String[] args) {
 
 
