@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class selectionsort{
+public class selectsort{
 
     public static void main(String[] args) {
 
@@ -10,9 +10,9 @@ public class selectionsort{
         for(int i = 0; i<n-1;i++){
            int min = Integer.MAX_VALUE;
            int mindx = -1;
-           for(int j=i; j<n; j++){
+           for(int j=i; j<=n; j++){
             if(arr[j]<min){
-                min = arr[j];
+                min = arr[j]
                 mindx = j;
             }
            }
@@ -21,6 +21,8 @@ public class selectionsort{
            arr[i] = arr[mindx];
            arr[mindx] = temp;
         }
+
+ 
         for(int ele : arr){
          System.out.print(ele + " ");
        } 
